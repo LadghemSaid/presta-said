@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700@display=swap');
+
+.toast-info {
+    background-color: #24cfaa !important;
+}
+
+.comment-form {
+
+    font-size: 16px;
+    font-family: 'Lato', san-serif;
+    margin: 60px 0;
+    width: 100%;
+    padding: 60px 35px 35px 35px;
+    border-radius: 40px;
+    background: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1,
+    -13px -13px 20px #fff;
+
+}
+
+.comment-form .logo {
+    background: url("//unsplash.it/600/600");
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px #808080,
+    0px 0px 0px 5px #e6e6e6,
+    8px 8px 15px #c4c4c4,
+    -8px -8px 15px #ffffff;
+}
+
+.comment-form .title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 24px;
+    letter-spacing: 0.5px;
+}
+
+.comment-form .sub-title {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 7px;
+    letter-spacing: 3px;
+}
+
+.comment-form .fields {
+    width: 100%;
+    padding: 35px 5px 5px 5px;
+}
+
+.comment-form .fields .flex {
+    display: flex;
+}
+
+.comment-form .fields input {
+    border: none;
+    outline: none;
+    width: 85%;
+    background: none;
+    font-size: 18px;
+    color: #555;
+    padding: 20px 10px 20px 5px;
+}
+
+.comment-form .username, .password, .comment-text {
+    width: 50%;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+    inset -8px -8px 8px #fff;
+}
+
+.comment-form .password {
+    margin-left: 100px;
+
+
+}
+
+.comment-form .comment-text {
+    width: 100%;
+
+}
+
+.comment-form .comment-text textarea {
+    background: transparent;
+    border: none;
+
+}
+
+.comment-form .comment-text textarea:focus {
+    outline: none;
+    background: transparent;
+
+}
+
+.comment-form .fields svg {
+    height: 22px;
+    margin: 0 10px -3px 25px;
+}
+
+.comment-form .signin-button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serof;
+    color: #fff;
+    text-align: center;
+    background: #24cfaa;
+
+    box-shadow: 3px 3px 8px #b1b1b1,
+    -3px -3px 8px #fff;
+
+    transition: 0.5s;
+}
+
+.comment-form .signin-button:hover {
+    background: #2fdbb6;
+}
+
+.comment-form .signin-button:active {
+    background: #1da88a;
+}
+
+.comment-form .link {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.comment-form .link a {
+    text-decoration: none;
+    color: #aaa;
+    font-size: 1rem;
+}
+
+.comment-row-container {
+    font-size: 16px;
+    font-family: 'Lato', san-serif;
+    margin: 60px 0;
+    width: 100%;
+    padding: 60px 35px 35px 35px;
+    border-radius: 40px;
+    background: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1,
+    -13px -13px 20px #fff;
+
+}
+
+.comment-row-container .comment-body {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.16);
+
+}
+
+.comment-row-container .comment-author {
+
+}
+
+.comment-row-container .flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-row-container .comment-body .comment-content {
+
+}
+
+.comment-row-container .comment-body .comment-date {
+    align-self: flex-end;
+}
